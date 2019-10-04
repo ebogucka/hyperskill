@@ -1,2 +1,2 @@
 # Hyperskill
- Hyperskill projects
+ [Hyperskill](https://hyperskill.org/projects) projects
