@@ -186,6 +186,7 @@ class SmartCalculator:
 
 
 smart_calculator = SmartCalculator()
+print("Enter your expression. Type /exit to close or /help for more information.")
 while True:
     text = input()
     if len(text) == 0:  # ignore empty lines
@@ -196,8 +197,9 @@ while True:
             break
         if text == "/help":
             print(
-                "The calculator performs addition, subtraction, "
-                "multiplication, division and calculations in brackets."
+                "The calculator operates on integers and performs addition, "
+                "subtraction, multiplication, division and calculations in brackets. "
+                "It supports variables. Examples:\n16 / 4\na = 4\n2 * (a + 4)"
             )
             continue
         else:
